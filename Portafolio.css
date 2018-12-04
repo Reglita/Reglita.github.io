@@ -1,0 +1,102 @@
+
+* {
+    font-family: Verdana;
+    margin: 0;
+   
+}
+h1 {
+    margin-top: 20px;
+    font-family: 'Fredoka One', cursive;
+    color: pink;
+    font-size: 2em;
+    text-align: center;
+    width: 100%;
+}
+
+#descripcion {
+    text-align: center;
+    font-size: .7em;
+}
+
+#logo {
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#logo img {
+    height:15em;
+    width: 15em;
+    
+}
+#galeria {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+#galeria figure{
+width:30%;
+margin:1em 0;
+}
+ 
+#galeria figure img {
+width: 100%;
+}
+
+footer {
+    margin-top: 1em;
+    width: 100%;
+    text-align: center;
+}
+
+#follow {
+color:black;
+font-size: .9em;
+margin-top: 1em;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;    
+}
+
+#follow figure img {
+    padding: 3px;
+}
+
+#copy {
+    margin-top: 1em;
+    margin-bottom: 2em;
+    text-align: center;
+    font-size: .7em;
+}
+
+#video {
+    display: flex;
+    justify-content: center;
+}
+
+#video video {
+    width:100%;
+}
+
+footer div a {
+    color: black;
+}
+
+footer div a:hover {
+    color: pink;
+}
+
+
+ 
+@media (max-width: 900px) {
+#galeria figure {
+width:45%
+}
+}
+@media (max-width: 600px) {
+#galeria figure {
+width:100%
+}
+}
+
